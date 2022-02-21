@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="registration.js"></script>
+    <link rel="stylesheet" href="registration.css" />
+    <title>registration form</title>
+</head>
+<body>
+  <div class = "form1">
+    <form onsubmit ="return valid()" >
+        <div class="container">
+          <h2>Registerarion</h2>
+          
+          <div class="container">
+            <img src="logo.png" alt="Avatar" class="image" style = " height:350px">
+            <div class="overlay">
+              <img src="Unknown.png" class="icon" title="User Profile" style = " height:300px">
+                <i class="fa fa-user"></i>
+              </a>
+            </div>
+          </div>
+
+        <div id = "items"> <td> Username </td>
+          <input keypressed="foo(event)" class="input" type = "username" id = "username" placeholder="Enter your name" value = ""> 
+          <span id = "error" style="color:rgb(0, 0, 0)"> </span> 
+        </div>
+
+        <div id = "items">
+          <td> Password </td>
+          <input class="input" type = "password" id = "password" placeholder="Set up a password" value = ""> 
+          <span id = "error1" style="color:rgb(0, 0, 0)"> </span> 
+        </div>
+
+        <div id = "items">
+          <td> Confirm Password </td>
+          <input class="input" type = "password" id = "password2" placeholder="Confirm password" value = ""> 
+          <span id = "error2" style="color:rgb(0, 0, 0)"> </span> <br><br>
+        </div>
+
+          <button class="button">Register</button>
+    
+        </div>
+      </form>
+  </div>
+
+</body>
+    
+</body>
+</html>
